@@ -12,6 +12,7 @@
         <!-- CSS -->
         <link rel="stylesheet" href="CSS/reset.css">
         <link rel="stylesheet" href="CSS/main.css">
+        <link rel="icon" type="image/png" href="IMG/logo_empresa.jpg">
         <title>Tribalia</title>
     </head>
     <body>
@@ -20,7 +21,7 @@
             <div class="header__icon">
                 <i class="bi bi-list"></i>
             </div>
-            <img src="IMG/logo_empresa.jpg" alt="Logo de empresa Tribalia">
+            <!-- <img src="IMG/logo_empresa.jpg" alt="Logo de empresa Tribalia"> -->
         </header>
 
         <main>
@@ -40,19 +41,24 @@
 
             <section class="main__informacion" id="SeccionInformacion">
 
-                <h2>Actividades y servicios que ofrecemos</h2>
+                <h2>Nuestros servicios y actividades</h2>
 
                 <div class="main__informacion--containerTarjetas">
 
                     <div class="main__informacion--tarjeta">
                         <h3>REGULARIZACIÓN DE OBLIGACIONES</h3>
-                        <p>Acercate a nosotros para saber si todas tus obligaciones estan cubiertas y si no le debes nada al SAT, o si ellos te deben.</p>
-                        <img src="IMG/iconos/sat-logo.png" alt="Logo SAT">
+                        <p>Acércate a nosotros para saber<span class="puntos">...</span><span class="texto-oculto"> si todas tus obligaciones están cubiertas y si no le debes nada al SAT, o si ellos te deben. </span> 
+                        </p>
+                        <button class="btnToggle">Mostrar más <i class="bi bi-arrow-down-short"></i></button>
+                        <img src="IMG/iconos/icono_sat.png" alt="Logo SAT">
                     </div>
 
                     <div class="main__informacion--tarjeta">
-                        <h3>ACTUALIZACION DE CITAS O TRAMITES</h3>
-                        <p>Nosotros te ahorramos el trabajo de tener que hacer todo el papeleo, pregunta por el trámite de tu interés y con mucho gusto te vamos a atender.</p>
+                        <h3>ACTUALIZACIÓN DE CITAS O TRÁMITES</h3>
+                        <p>Nosotros te ahorramos el trabajo<span class="puntos">...</span> 
+                            <span class="texto-oculto">de tener que hacer todo el papeleo, pregunta por el trámite de tu interés y con mucho gusto te vamos a atender.</span>
+                        </p>
+                        <button class="btnToggle">Mostar más <i class="bi bi-arrow-down-short"></i></button>
                         <img src="IMG/iconos/cita.png" alt="Logo SAT">
                     </div>
 
@@ -64,31 +70,45 @@
 
                     <div class="main__informacion--tarjeta">
                         <h3>PROBLEMAS CON TU RFC</h3>
-                        <p>Duplicidad, constancias, opiniones de cumplimiento, cambio de régimen, cambio de domicilio, generación de contraseña, suspensión, reanudación, altas en el SAT, etc.</p>
+                        <p>Duplicidad, constancias, opiniones de cumplimiento,<span class="puntos">...</span> <span class="texto-oculto"> cambio de régimen, cambio de domicilio, generación de contraseña, suspensión, reanudación, altas en el SAT, etc.</span> 
+                        </p>
+                        <button class="btnToggle">Mostar más <i class="bi bi-arrow-down-short"></i></button>
                         <img src="IMG/iconos/buscar.png" alt="Logo SAT">
                     </div>
 
                     <div class="main__informacion--tarjeta">
                         <h3>DEVOLUCIONES DE SALDO A FAVOR</h3>
-                        <p>El SAT te devuelve dinero de los impuestos que tú pagas, acércate a nosotros para conocer si eres acredor a este derecho o cuál es la cantidad.</p>
+                        <p>El SAT te devuelve dinero de los impuestos que tú pagas,<span class="puntos">...</span> 
+                            <span class="texto-oculto"> acércate a nosotros para conocer si eres acreedor a este derecho o cuál es la cantidad.</span> 
+                        </p>
+                        <button class="btnToggle">Mostar más <i class="bi bi-arrow-down-short"></i></button>
                         <img src="IMG/iconos/devolucion-de-dinero.png" alt="Logo SAT">
                     </div>
 
                     <div class="main__informacion--tarjeta">
-                        <h3>DESBLOQUEO DE CUENTAS BANCARIAS.</h3>
-                        <p>Sí no eres parte de la familia TRIBALIA, muy probablemente te han congelado una cuenta bancaria por incumplimiento de obligaciones, nosotros te podemos ayudar con eso.</p>
+                        <h3>DESBLOQUEO DE CUENTAS BANCARIAS</h3>
+                        <p>Sí no eres parte de la familia TRIBALIA,<span class="puntos">...</span>
+                            <span class="texto-oculto"> muy probablemente te han congelado una cuenta bancaria por incumplimiento de obligaciones, nosotros te podemos ayudar con eso.</span> 
+                        </p>
+                        <button class="btnToggle">Mostar más <i class="bi bi-arrow-down-short"></i></button>
                         <img src="IMG/iconos/seguridad.png" alt="Logo SAT">
                     </div>
 
                     <div class="main__informacion--tarjeta">
                         <h3>REPSE</h3>
-                        <p>Solicitud e inscripción, renovación, declaración, registro patronal, etc.</p>
+                        <p>Solicitud e inscripción, renovación,<span class="puntos">...</span>
+                            <span class="texto-oculto"> declaración, registro patronal, etc.</span> 
+                        </p>
+                        <button class="btnToggle">Mostar más <i class="bi bi-arrow-down-short"></i></button>
                         <img src="IMG/iconos/aprobar.png" alt="Logo SAT">
                     </div>
 
                     <div class="main__informacion--tarjeta">
-                        <h3>TRAMITES PERSONALES</h3>
-                        <p>Actas de nacimiento, CURP, antecedentes NO penales, incapacidades (IMSS, ISSSTE, etc.)</p>
+                        <h3>TRÁMITES PERSONALES</h3>
+                        <p>Actas de nacimiento, CURP,<span class="puntos">...</span>
+                            <span class="texto-oculto"> antecedentes no penales, incapacidades (IMSS, ISSSTE, etc.) </span> 
+                        </p>
+                        <button class="btnToggle">Mostar más <i class="bi bi-arrow-down-short"></i></button>
                         <img src="IMG/iconos/antecedentes.png" alt="Logo SAT">
                     </div>
 
@@ -98,7 +118,7 @@
 
             <section class="main__redesSociales" id="SeccionRedesSociales">
 
-                <h2>Nuestras redes sociales</h2>
+                <h2>Conecta con nosotros</h2>
 
                 <div class="main__redesSociales--containerTarjeta">
 
